@@ -19,7 +19,7 @@ const Footer = () => {
             </a>
             <a
               target="_blank"
-              href={`https://github.com/allenlongbaobao/next-blog`}
+              href={`https://github.com/allenlongbaobao`}
               className="mx-3 font-bold hover:underline"
             >
               View on GitHub
