@@ -1,0 +1,9 @@
+{
+  "apps": [
+      {
+          "name": "next-blog",
+          "script": "npm",
+          "args" : "start"
+      }
+  ]
+}
