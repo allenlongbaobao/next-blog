@@ -1,13 +1,13 @@
 ---
 title: '如何借助GitHub Action 做自动部署'
 excerpt: '如何借助GitHub Action 做自动部署'
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
+coverImage: 'https://linke-blog.oss-cn-shanghai.aliyuncs.com/pexels-pixabay-163036%20%281%29.jpg'
 date: '2020-10-29'
 author:
   name: 林克 
   picture: '/assets/blog/authors/allen.jpeg'
 ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
+  url: ''
 ---
 
 ## 参考链接：
