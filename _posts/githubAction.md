@@ -4,7 +4,7 @@ excerpt: '如何借助GitHub Action 做自动部署'
 coverImage: '/assets/blog/dynamic-routing/cover.jpg'
 date: '2020-10-29'
 author:
-  name: allen 
+  name: 林克 
   picture: '/assets/blog/authors/allen.jpeg'
 ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
