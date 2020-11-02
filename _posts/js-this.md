@@ -280,7 +280,7 @@ person1.show3()()
 如果想改写的话，只需要用 `var self = this` 来保存当前的上下文即可，这个应用场景很多，如果常见的`setTimtout(fn, o)`
 
 END.
-参考链接： 
-[阮老师的博文](http://www.ruanyifeng.com/blog/2010/04/using_this_keyword_in_javascript.html)  
-[秘密花园](https://bonsaiden.github.io/JavaScript-Garden/zh/#function.this)  
+参考链接：   
+[阮老师的博文](http://www.ruanyifeng.com/blog/2010/04/using_this_keyword_in_javascript.html)   
+[秘密花园](https://bonsaiden.github.io/JavaScript-Garden/zh/#function.this)    
 [从这两套题，重新认识JS的this、作用域、闭包、对象](https://juejin.im/post/6844903493845647367)  
