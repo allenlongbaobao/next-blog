@@ -2,10 +2,11 @@ deploy:
 	yarn export
 	rsync out/ -av root@116.62.217.57:/var/www/html/next-blog
 
-
 deploy-node:
 	rm -rf ./.deploy
 	mkdir .deploy
+	yarn build
+	yarn postbuild
 	cd .deploy && git init . && git remote add origin root@116.62.217.57:/root/aogante/next-blog-bare.git && cd ../
 	cp -r `ls |grep -v node_modules|xargs` ./.deploy 
 	cp .npmrc ./.deploy
