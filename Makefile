@@ -2,6 +2,7 @@ deploy:
 	yarn export
 	rsync out/ -av root@116.62.217.57:/var/www/html/next-blog
 
+# 需要重新编译
 deploy-node:
 	rm -rf ./.deploy
 	mkdir .deploy
