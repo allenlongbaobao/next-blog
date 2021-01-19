@@ -21,6 +21,10 @@ code, kbd, pre, samp {
   border-radius: 4px;
 }
 
+.hljs {
+  padding: 1.0em !important;
+}
+
 ul {
   margin: 0.75em 0;
   padding: 0 1em;
