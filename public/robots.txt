@@ -1,4 +1,9 @@
+# *
 User-agent: *
 Allow: /
+
+# Host
 Host: https://allenwang.top
+
+# Sitemaps
 Sitemap: https://allenwang.top/sitemap.xml
