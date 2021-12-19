@@ -14,6 +14,7 @@ import PostType from '../../types/post'
 import { useEffect } from 'react'
 import 'gitalk/dist/gitalk.css'
 import Gitalk from 'gitalk'
+import MindNode from '../../components/mindnode'
 
 type Props = {
   post: PostType
@@ -61,6 +62,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
                 date={post.date}
                 author={post.author}
               />
+              <MindNode url={post.mindnode} />
               <PostBody content={post.content} />
               <div id="gitalk-container"></div>
             </article>
@@ -88,6 +90,7 @@ export async function getStaticProps({ params }: Params) {
     'content',
     'ogImage',
     'coverImage',
+    'mindnode'
   ])
   const content = await markdownToHtml(post.content || '')
 

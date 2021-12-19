@@ -3,6 +3,7 @@ title: 'Javascript 中实现对象原型继承的三种方式'
 excerpt: 'Javascript 中实现对象原型继承的三种方式'
 coverImage: 'https://linke-blog.oss-cn-shanghai.aliyuncs.com/aonaotu-download-4.png'
 date: '2020-10-30'
+mindnode: 'https://aonaotu.com/open/5c9257409540f200146971a5'
 author:
   name: 林克
   picture: '/assets/blog/authors/allen.jpeg'
@@ -11,8 +12,6 @@ ogImage:
 ---
 
 Javascript 中有一个思想：万物皆对象，几个基础类型（String, Number, Boolean, Null, Undefined, Symbol），几个引用类型（Array, Date, Function, Object, Regexp）本质上都是对象。
-
-![img](https://linke-blog.oss-cn-shanghai.aliyuncs.com/aonaotu-download-4.png)
 
 那么对象之间如何实现关联（也就是OO里面的继承）呢？js中通过prototype(原型)来实现。每个对象都有一个__proto__指针，指向上一个原型，这就像是一个链表。最顶端的object的原型指向null, 代表终结。
 所以，当我们定义一个变量：
